@@ -1,0 +1,3 @@
+Nagato
+Konan
+Yahikoo

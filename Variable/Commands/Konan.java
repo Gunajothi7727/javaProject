@@ -1,3 +1,0 @@
-jothi
-pasmi
-jonifa
