@@ -8,11 +8,6 @@ public class PosNeg
             System.out.println("Negative Number");
 
         }
-        else if(number==0)
-        {
-            System.out.println("Neutral Number");
-
-        }
         else{
             System.out.println("Positive Number");
         }
