@@ -14,16 +14,17 @@ public class Sum
             System.out.println("Enter the number:");
             a[i]=sc.nextInt();
             i=i+1;
-            
         }
-        for(i=0;i<n;i++)
+            
+        i=0;
+        while(i<n)
         {
-            sum=sum+a[i];
-            i=i+1;
+             sum=sum+a[i];
+             i=i+1;
         }
        System.out.println("Addition:"+(sum));
           
             
         
-    }}
-
+    }
+}
