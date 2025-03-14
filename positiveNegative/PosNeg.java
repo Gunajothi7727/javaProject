@@ -2,19 +2,14 @@ public class PosNeg
 {
     public static void main(String args[])
     {
-        int number=-90;
-        if(number<0)
+        int number=-10;
+        if(number>0)
         {
-            System.out.println("Negative Number");
-
-        }
-        else if(number==0)
-        {
-            System.out.println("Neutral Number");
+            System.out.println("Positive Number");
 
         }
         else{
-            System.out.println("Positive Number");
+            System.out.println("Negative Number");
         }
     }
 }
