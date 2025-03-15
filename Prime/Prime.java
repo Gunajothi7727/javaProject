@@ -7,7 +7,7 @@ public class Prime
         System.out.println("Enter the n value:");
         int n=sc.nextInt();
         int detect=0;
-        int detect2=0;
+        
         int i=1;
         while(i<=n)
         {
@@ -18,16 +18,14 @@ public class Prime
             }
             
           i=i+1;
-        }
-        if(detect==3)
-            {
-                System.out.println("Not a prime number");
-            }
-        
-    
+        }      
+                if(detect==3)
+                {
+                System.out.println(" Not a prime number");
+                }
         else 
         {
-            System.out.println(" Prime Number");
+            System.out.println("  Prime Number");
         }
 }
     }
